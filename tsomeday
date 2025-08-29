@@ -1,0 +1,10 @@
+#!/bin/bash
+# Add a task to the someday/maybe list.  In GTD
+# someday/maybe are tasks that you'd like to accomplish,
+# but don't fit the current context of your life.
+if [ -z "$1" ]; then
+    echo "Usage: $0 <task description>"
+    exit 1
+fi
+task add wait:someday "$1" +someday
+echo "Added $1"

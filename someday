@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Display all tasks on the someday/maybe list.  In GTD
+# someday/maybe are tasks that you'd like to accomplish,
+# but don't fit the current context of your life.
+task waiting wait:someday
+
+# alternatively you could use:
+# task +someday all
